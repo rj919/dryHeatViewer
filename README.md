@@ -66,7 +66,7 @@ variables set in the background. Any of the following settings can be adjusted:
 - scheduler_executors_type: threadpool
 - scheduler_executors_max_workers: 20
 
-A copy of the settings.yaml file is included in the notes folder.
+A copy of the settings.yaml file is included in the notes folder..
  
 ## Launch Commands
 **startScheduler.sh**  
