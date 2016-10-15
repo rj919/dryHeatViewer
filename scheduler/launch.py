@@ -73,11 +73,11 @@ app.logger.setLevel(logging.DEBUG)
 app.config['ASSETS_DEBUG'] = False
 
 # construct the landing & dashboard for single-page sites
-from scheduler.utils import load_settings
-api_model = load_settings('models/api_model.json')
+# from scheduler.utils import load_settings
+# api_model = load_settings('models/api_model.json')
 @app.route('/')
 def landing_page():
-    return jsonify(api_model['schema']), 200
+    return render_template('dashboard.html'), 200
 
 # construct the catchall for URLs which do not exist
 @app.errorhandler(404)
