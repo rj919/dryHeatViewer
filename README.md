@@ -55,7 +55,13 @@ Requires:
 
 - Container Alias
 - Token from Docker Build Settings
-- Environment Variable File (in cred/)
+- Environment Variable File (in credentials/)
+
+**tunnelMe.sh**  
+_Initiates a secure tunnel from local device to endpoint on localtunnel.me_  
+Requires:  
+
+- Container Alias
 
 ## Collaboration Notes
 _The Git and Docker repos contain all the configuration for deployment to AWS.  
